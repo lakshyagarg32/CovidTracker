@@ -1,0 +1,15 @@
+.select{
+    background-color:#f3f2f8 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0% !important;
+    padding-left: 2% !important;
+    font-size: small !important;
+    border-radius: 0.3125rem;
+    padding: 0.3125rem;
+}
+.formControl {
+    width: fit-content;
+  }
+
+
+ 

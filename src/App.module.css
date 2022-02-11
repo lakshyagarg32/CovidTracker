@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(250, 250,250);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 23.125rem;
+  margin-top: 3.125rem;
+}
+
+.container{
+  justify-content: center;
+}
+.table{
+  justify-content: center;
+  margin-bottom: 3% !important;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+  
+  .table{
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}

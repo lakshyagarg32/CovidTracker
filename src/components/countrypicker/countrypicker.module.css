@@ -1,0 +1,24 @@
+.formControl {
+    width: 30%;
+    margin-bottom: 1.875rem !important;
+    margin-top: 3.125rem !important;
+  }
+  .formControl .temp{
+    width: 100%;
+    min-width: 100%;
+  }
+  @media(max-width:770px){
+    .formControl{
+      width:60%
+    }
+  }
+  @media(min-width:400px) and (max-width:770px){
+    .formControl{
+      width:70%;
+    }
+  }
+  @media(max-width:400px){
+    .formControl{
+      width: 90%;
+    }
+  }
